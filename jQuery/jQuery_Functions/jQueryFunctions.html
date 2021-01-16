@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>jQuery Functions</title>
+         <!-- Bootstrap -->
+         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+         <!-- jQuery -->
+         <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+         <!-- Custom -->
+         <script src="jQueryFunctions.js"></script>
+        <link rel="stylesheet" href="jQueryFunctions.css">
+    </head>
+    <body>
+        <section class="container-fluid banner"  id="home">
+            <nav class="navbar navbar-expand-md navbar-dark">
+                <a class="navbar-brand" href="xyz">XYZ Coffee Shop</a>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Menus</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Galleries</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="imgAttr">
+                <span>Photo by <a href="https://unsplash.com/@rparmly?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Ross Parmly</a> on <a href="https://unsplash.com/s/photos/coffee?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+            </div>
+        </section>
+        <section class="container" id="about">
+            <div class="row">
+                <div class="col founder">
+                    <h1>Founder</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis doloribus voluptatibus porro reiciendis consectetur, accusamus error obcaecati recusandae tempora ipsam asperiores dolore, iste ipsa est molestiae in. Consectetur, repellat et.Soluta sit incidunt error cum placeat doloribus qui repudiandae atque non rem, accusantium quod, nemo cupiditate sequi provident animi inventore nam ipsa debitis, recusandae commodi? Ducimus quia ipsam quibusdam quae.</p>
+                    <button type="button" class="btn-block btn-secondary">Click here to see our Founder Picture</button>
+                    <img src="hello.jpg" alt="founder Picture">
+                </div>
+                <div class="col xyzshop">
+                    <h1>About <span></span> Coffee Shop</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque modi error odit dicta commodi animi debitis sed impedit iusto sunt earum nisi ut sequi at, ad numquam blanditiis voluptates accusamus?
+                    Eveniet iure asperiores corporis, accusamus ullam tenetur modi quae repellendus? Molestias, minus. Eum earum deleniti alias est voluptas natus quisquam esse, aliquid blanditiis quia incidunt fuga recusandae odit autem voluptatum.
+                    Nulla similique, repellat cum ipsum quae odio earum mollitia saepe, nesciunt vitae sint modi. Cum sed explicabo aliquid consequatur molestias, fugit impedit quidem dolor. Repellat beatae pariatur maiores eum non?
+                    Minus molestiae qui ullam consequuntur nam quidem facere distinctio nisi numquam sed beatae, provident, sequi est voluptatem ab eius. Dignissimos inventore voluptatem eos assumenda excepturi pariatur iste cum vel ut?
+                    Recusandae, ad repudiandae consequuntur consequatur rerum pariatur fugit ea blanditiis tenetur natus ut asperiores corporis! Velit exercitationem repudiandae, nihil ex debitis nulla porro tempore, saepe similique, earum commodi sint ea.</p>
+                </div>
+            </div>
+        </section>
+        <section class="text-center">
+            <button type="button" class="btn btn-secondary down">Slide Down</button>
+            <button type="button" class="btn btn-secondary up">Slide Up</button>
+        </section>
+        <section class="container" id="menus">
+            <div class="row">
+                <div class="col hotCoffees">
+                    <h3>Hot Coffes</h3>
+                    <ol>
+                        <li>Caffè Americano</li>
+                        <li>Cappuccino</li>
+                        <li>Espresso</li>
+                        <li>Caffè Latte</li>
+                        <li>Caramel Macchiato</li>
+                        <li>Salted Caramel Mocha</li>
+                    </ol>
+                </div>
+                <div class="col hotTeas">
+                    <h3>Hot Teas</h3>
+                    <ol>
+                        <li>Matcha Green Tea Latte</li>
+                        <li>Jade Citrus Mint® Brewed Tea</li>
+                        <li>Honey Citrus Mint Tea</li>
+                        <li>Chai Latte</li>
+                    </ol>
+                </div>
+                <div class="col blended">
+                    <h3>Blended Breverages</h3>
+                    <ol>
+                        <li>Matcha Green Tea Crème Frappuccino</li>
+                        <li>Double Chocolaty Chip Crème Frappuccino</li>
+                        <li>Strawberry Crème Frappuccino</li>
+                        <li>Toasted White Chocolate Mocha Frappuccino</li>
+                        <li>Toasted White Chocolate Crème Frappuccino</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col">
+                    <p>For Purchasing Instruction:</p>
+                    <button type="button" class="btn btn-secondary shopInstruction">Click here</button>
+                    <ol class="instructions">
+                        <li>Click the items you want to purchase</li>
+                        <li>To proceed, click continue</li>
+                        <li>Choose a mode of payment</li>
+                        <li>Click OK</li>
+                    </ol>
+                </div>
+                <div class="col">
+                    <p>To view Shopping Cart</p>
+                    <button type="button" class="btn btn-secondary shopCart">Click here</button>
+                </div>
+            </div>
+            <form class="shoppingCart">
+                <h1 class="row">Shopping Cart</h1>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="givenName">Given Name</label>
+                        <input type="text" class="form-control" id="givenName">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="surname">Surname</label>
+                        <input type="text" class="form-control" id="surname">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputEmail4">Email</label>
+                        <input type="email" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputPassword4">Password</label>
+                        <input type="password" class="form-control" id="inputPassword4">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputAddress">Address</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                </div>
+                <h3 class="row">Items</h3>
+                <div class="row items"><ol></ol></div>
+                <p>If you're finish <span></span>, click continue.</p>
+                <button type="button" class="btn btn-primary continue">Continue</button>
+            </form>
+            <form class="payment">
+                <h1 class="row">Mode of Payment</h1>
+                <div class="form-row">
+                    <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Preference</label>
+                    <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                        <option selected>Choose...</option>
+                        <option value="1">Cash on Delivery</option>
+                        <option value="2">BDO</option>
+                        <option value="3">GCash</option>
+                        <option value="3">Paymaya</option>
+                    </select>
+                </div>
+                <button type="button" class="btn btn-primary my-1">Ok</button>
+            </form>
+        </section>
+    </body>
+</html>

@@ -1,0 +1,67 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.banner {
+height: 100%;
+width: 100%;
+background-image: url("coffee.jpg");
+background-size: cover;
+background-position: top;
+background-repeat: no-repeat;
+}
+    .banner nav {
+    font-size: 1.2em;
+    }
+    .banner .navbar-brand {
+    font-size: 2.5em;
+    margin-left: 5%;
+    }
+    .banner .navbar-nav{
+    margin-right: 5%;
+    text-transform: uppercase;
+    }
+        .banner .navbar-nav li {
+        margin-left: 2em;
+        }
+.imgAttr {
+text-align: right;
+margin-top: 40%;
+color: white;
+}
+.founder {
+text-align: center;
+}
+    .founder img {
+        width: 300px;
+        height: 150px;
+    }
+.xyzshop {
+text-align: center;
+}
+.founder p, .xyzshop p{
+text-indent: 10%;
+text-align: justify;
+}
+
+#about, #menus {
+margin-top: 4%;
+}
+
+.btn-block {
+width: 300px;
+margin: 0 auto;
+}
+.shopInstruction p {
+    margin-right: 5px;
+}
+.red {
+    color: red;
+}
+.items ol li {
+    margin-left: 20px;
+}
+h1 span {
+    text-transform: uppercase;
+}
