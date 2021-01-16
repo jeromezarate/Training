@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #000;
+    box-sizing: border-box;
+}
+.container {
+    background-color: gray;
+    width: 970px;
+    margin: 0 auto;
+}
+header {
+    background-image: linear-gradient(to bottom, #f1f1f1, white);
+    h1, h2{
+        display: inline-block;
+        vertical-align: top;
+    }
+    h1 {
+        margin-right: 180px;
+        padding: 20px 20px 0;
+    }
+    h2 {
+        margin-left: 180px;
+        padding: 25px 20px 0;
+    }
+}
+main {
+    background-image: radial-gradient(#927481, #523e47, #2e1a23);
+    padding: 20px;
+    img:first-child {
+        background-color: #b8b7b7;
+        width: 450px;
+        height: 280px;
+        padding: 10px;
+        display: inline-block;
+        vertical-align: top;
+    }
+    section:nth-child(2) {
+        background-image: linear-gradient(to left, #dbccda, white);
+        width: 450px;
+        height: 280px;
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 26px;
+        a:last-child {
+            padding: 10px;
+        }
+    }
+    section:nth-child(3) {
+        margin-top: 20px;
+    }
+    section {
+        article {
+            background-image: linear-gradient(to left,#dacbd9, white);
+            width: 300px;
+            display: inline-block;
+            vertical-align: top;
+            img:first-of-type {
+                width: 290px;
+                height: 180px;
+            }
+            a:last-child {
+                padding: 5px;
+                border-radius: 10px;
+                text-decoration: none;
+                display: block;
+                background-color: #407d61;
+                color: white;
+                text-align: center;
+                margin: 10px auto;
+                box-shadow: 2px 2px 5px grey;
+            }
+        }
+        article:first-child a:last-child {
+            width: 70px;
+        }
+        article:nth-child(2) a:last-child {
+            width: 120px;
+        }
+        article:last-child a:last-child {
+            width: 90px;
+        }
+    }
+    article ~ article {
+        margin-left: 11px;
+    }
+}
+img + p {
+    height: 200px;
+}
+h3  ~ img {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 10px 0 0 10px
+}
+p {
+    padding: 10px;
+}
+h3 {
+    background-image: linear-gradient(#bdbbc0, #888693, #bdbbc0);
+    padding: 5px 5px 5px 10px;
+    color: white;
+    font-size: 20px;
+}
+footer {
+    background-image: linear-gradient(to top, #f1f1f1, #fff);
+    height: 70px;
+    text-align: center;
+    img {
+        display: inline-block;
+        height: 20px;
+        width: 20px;
+        vertical-align: middle;
+    }
+}

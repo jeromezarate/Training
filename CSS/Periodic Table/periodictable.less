@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 1800px;
+    background-color: #eeeeee;
+    padding: 10px;
+    margin: 0 auto;
+}
+.group div, .period, .group1To2, .group3To12, .group13To18 {
+    display: inline-block;
+    vertical-align: bottom;
+    text-align: center;
+}
+.group div {
+    width: 75px;
+    height: 50px;
+    color: #ff0000;
+}
+.period {
+    margin: auto 0;
+    div {
+        width: 75px;
+        height: 75px;
+        color: #ff0000;
+        margin-bottom: 3px;
+    }
+}
+.group1To2, .group3To12, .group13To18 {
+    margin-bottom: 20px;
+    div {
+        width: 75px;
+        height: 75px;
+        border: 1px solid #000000;
+        margin-bottom: 3px;
+    }
+}
+.lanthanoids, .actinoids {
+    margin-left: 50px;
+    div {
+        display: inline-block;
+        vertical-align: bottom;
+        border: 1px solid #000000;
+        text-align: center;
+        width: 75px;
+        height: 75px;
+        margin-bottom: 3px;
+        background-color: #1fca21;
+    }
+    div:first-child {
+        width: 150px;
+        padding-top: 20px;
+        font-size: 20px;
+        border: transparent;
+        color: #ff0000;
+        background-color: transparent;
+        margin-right: 48px;
+    }
+}
+.group2 {
+    margin-right: 15px;
+}
+.group1To2 div {
+    background-color: #689bff;
+}
+.group3To12 div{
+    background-color: #fd9a98;
+}
+
+.group13To18 div{
+    background-color: #fecb00;
+}
+h1 {
+    color: #201ea1;
+}

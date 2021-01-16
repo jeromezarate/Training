@@ -1,0 +1,187 @@
+// * {
+//     margin: 0;
+//     padding: 0;
+//     box-sizing: border-box;
+// }
+// header {
+//     display: grid;
+//     grid-template-columns: repeat(2, 1fr);
+//     padding: 20px;
+//     align-items: center;
+//     background-image: linear-gradient(to bottom, #f1f1f1, #fff);
+//     h2 {
+//         text-align: right;
+//     }
+// }
+// main {
+//     background-image: radial-gradient(#927481, #523e47, #2e1a23);
+//     padding: 20px;
+//     display: grid;
+//     grid-gap: 1rem;
+//     grid-template-columns: repeat(6, 1fr);
+//     grid-template-areas:
+//     "profilePhoto profilePhoto profilePhoto about about about"
+//     "laMode laMode familyContacts familyContacts fiveEleven fiveEleven";
+
+//     img.profilePhoto {
+//         grid-area: profilePhoto;
+//         background-color: #b8b7b7;
+//         padding: 5px;
+//         width: 100%;
+//         height: 100%;
+//     }
+//     .about {
+//         grid-area: about;
+//         width: 100%;
+//         height: 100%;
+//         background-image: linear-gradient(to left, #dacbd9, #fff);
+//         padding-bottom: 20px;
+//         h3 {
+//             background-image: linear-gradient(#bdbbc0, #888693, #bdbbc0);
+//             padding: 5px;
+//             color: white;
+//             font-size: 20px;
+//         }
+//         p, a {
+//             padding: 10px;
+//             color: #000;
+//         }
+//     }
+//     .laMode {
+//         grid-area: laMode;
+//         a.link {
+//             width: 70px;
+//         }
+//     }
+//     .familyContacts {
+//         grid-area: familyContacts;
+//         a.link {
+//             width: 120px;
+//         }
+//     }
+//     .fiveEleven {
+//         grid-area: fiveEleven;
+//         a.link {
+//             width: 90px;
+//         }
+//     }
+//     .laMode, .familyContacts, .fiveEleven {
+//         background-image: linear-gradient(to left, #dacbd9, #fff);
+//         h3 {
+//             background-image: linear-gradient(#bdbbc0, #888693, #bdbbc0);
+//             padding: 5px;
+//             color: #fff;
+//             font-size: 20px;
+//         }
+//         img {
+//             width: 100%;
+//             height: 180px;
+//         }
+//         p {
+//             padding: 10px;
+//             height: 200px;
+//         }
+//         .techImages  {
+//             display: inline-block;
+//             width: 40px;
+//             height: 40px;
+//             margin: 10px 0 0 10px
+//         }
+//         a.link {
+//             padding: 5px;
+//             border-radius: 10px;
+//             text-decoration: none;
+//             display: block;
+//             background-color: #407d61;
+//             color: #fff;
+//             font-weight: 800px;
+//             text-align: center;
+//             margin: 10px auto;
+//             box-shadow: 2px 2px 5px #808080;
+//         }
+//     }
+// }
+// footer {
+//     background-image: linear-gradient(to top, #f1f1f1, #fff);
+//     text-align: center;
+//     p {
+//         margin: 10px 0;
+//     }
+//     a {
+//         color: #000;
+//     }
+//     img {
+//         width: 20px;
+//         height: 20px;
+//         display: inline-block;
+//         vertical-align: middle;
+//     }
+// }
+// @media only screen and (max-width: 480px) {
+//     header {
+//         text-align: center;
+//         grid-template-columns: 1fr;
+//         h2 {
+//             text-align: center;
+//         }
+//     }
+//     main {
+//         height: auto;
+//         grid-gap: 1rem;
+//         grid-template-columns: 100%;
+//         grid-template-areas:
+//         "about"
+//         "laMode"
+//         "familyContacts "
+//         "fiveEleven";
+//         .laMode, .familyContacts, .fiveEleven {
+//             p {
+//                 height: auto;
+//             }
+//         }
+//     }
+// }
+// @media only screen and (min-width: 481px) {
+//     header {
+//         h1, h2 {
+//             text-align: center;
+//         }
+//     }
+//     main {
+//         height: auto;
+//         grid-gap: 1rem;
+//         grid-template-columns: 1fr 1fr;
+//         grid-template-areas:
+//         "profilePhoto about"
+//         "laMode familyContacts"
+//         "fiveEleven .";
+//         .laMode, .familyContacts, .fiveEleven {
+//             p {
+//                 height: auto;
+//             }
+//         }
+//     }   
+// }
+// @media only screen and (min-width: 1024px) {
+//     header {
+//         h2 {
+//             text-align: right;
+//         }
+//         h1 {
+//             text-align: left;
+//         }
+//     }
+//     main {
+//         grid-template-columns: repeat(6, 1fr);
+//         grid-template-areas:
+//         "profilePhoto profilePhoto profilePhoto about about about"
+//         "laMode laMode familyContacts familyContacts fiveEleven fiveEleven";
+//         .laMode, .familyContacts, .fiveEleven {
+//             background-image: linear-gradient(to left, #dacbd9, #fff);
+//             p {
+//                 padding: 10px;
+//                 height: 200px;
+//             }
+//         }
+//     }
+// }

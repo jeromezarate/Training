@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#container {
+    width: 340px;
+    height: 320px;
+    padding: 10px;
+    background-color: #d5d2ae;
+    margin: 50px auto;
+}
+img {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
+.head {
+    display: block;
+    height: 40px;
+    text-align: center;
+}
+.head img, .head h3 {
+    display: inline;
+    vertical-align: bottom;
+    width: 60px;
+    height: 30px;
+}
+.blueBackground, .pinkBackground {
+    display: inline-block;
+    vertical-align: top;
+}
+.blueBackground img {
+    background-color: #82b4ee;
+    display: block;
+    border: 2px solid black;
+    margin: 3px 0.25px;
+}
+.pinkBackground img {
+    background-color: #f36870;
+    display: block;
+    border: 2px solid black;
+    margin: 3px 0.25px;
+}

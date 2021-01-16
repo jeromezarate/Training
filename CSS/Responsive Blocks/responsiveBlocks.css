@@ -1,0 +1,129 @@
+/*CSS reset settings here*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#wrapper {
+    width: 950px;
+    background-color: silver;
+    margin: 0px auto;
+    padding: 20px;
+}
+header {
+    min-height: 150px;
+    background-color: green;
+    margin-bottom: 20px;
+}
+nav {
+    min-height: 300px;
+    width: 200px;
+    background-color: blue;
+    display: inline-block;
+    vertical-align: top;
+}
+main {
+    min-height: 400px;
+    width: 700px;
+    background-color: red;
+    padding: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+.subContents {
+    min-height: 200px;
+    width: 210px;
+    background-color: yellow;
+    display: inline-block;
+    vertical-align: top;
+}
+#advertisement {
+    min-height: 120px;
+    width: 660px;
+    background-color: purple;
+    margin-top: 20px;
+}
+@media only screen and (max-width: 480px) {
+    #wrapper {
+        width: 100%;
+    }
+    header {
+        width: 100%;
+    }
+    nav {
+        display: none;
+    }
+    main {
+        width: 100%;
+    }
+    .subContents {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #advertisement {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 481px) and (max-width: 1023px) {
+    #wrapper {
+        width: 100%;
+    }
+    header {
+        width: 100%;
+    }
+    nav {
+        display: none;
+    }
+    main {
+        width: 100%;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-areas: 
+        " . ."
+        ". ."
+        "ad ad";
+        grid-row-gap: 20px;
+        grid-column-gap: 10px;
+    }
+    .subContents {
+        width: 97%;
+        padding: 10px;
+    }
+    #advertisement {
+        margin: 0;
+        grid-area: ad;
+        width: 99%;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    #wrapper {
+        width: 100%;
+    }
+    header {
+        width: 100%;
+    }
+    nav {
+        display: none;
+    }
+    main {
+        width: 100%;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas: 
+        " . . ."
+        "ad ad ad";
+        grid-row-gap: 20px;
+        grid-column-gap: 10px;
+    }
+    .subContents {
+        width: 100%;
+        padding: 10px;
+    }
+    #advertisement {
+        margin: 0;
+        grid-area: ad;
+        width: 100%;
+    }
+}
