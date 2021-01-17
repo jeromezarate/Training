@@ -1,0 +1,58 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+.container {
+   margin: 100px 0 0 350px;
+   padding: 20px;
+   width: 650px;
+}
+h1 + section {
+   height: 20px;
+}
+section p {
+   display: inline;
+   color: red;
+   font-size: 15px;
+}
+label {
+   display: block;
+   margin-top: 5px;
+}
+span, input, textarea {
+   display: inline-block;
+   vertical-align: top;
+}
+input, textarea {
+   margin-left: 10px;
+}
+input[type="text"] {
+   width: 200px;
+}
+textarea {
+   width: 500px;
+   height: 200px;
+}
+label + input {
+   margin-left: 95px;
+}
+input + input {
+   margin-left: 275px;
+}
+/*---------- main.php style ----------*/
+.main_container {
+   margin: 50px auto;
+   width: 410px;
+   line-height: 30px;
+}
+   h1 + div {
+   margin-top: 50px;
+}
+   div div {
+   border-bottom: 2px solid black;
+   font-size: 20px;
+}
+div > p + p {
+   margin-left: 50px;
+}

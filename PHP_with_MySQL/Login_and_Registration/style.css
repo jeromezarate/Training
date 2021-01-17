@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*----------index.php style----------*/
+.container {
+    border: 1px solid black;
+    margin: 100px auto;
+    padding: 20px;
+    width: 400px;
+}
+label {
+    display: block;
+    margin-top: 5px;
+}
+span, input {
+    display: inline-block;
+    vertical-align: middle;
+}
+span {
+    width: 140px;
+}
+input {
+    width: 213px;
+}
+input[type="submit"] {
+    width: 80px;
+    display: block;
+    margin-left: auto;
+}
+section > h1 {
+    text-align: center;
+}
+p.error {
+    color: red;
+    font-size: 10px;
+    display: inline;
+}
+p.success {
+    color: green;
+    text-align: center;
+}
+/*----------main.php style----------*/
+.main_container {
+    margin: 100px auto;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+}
+div > h1 {
+    margin-bottom: 50px;
+}
+a {
+    text-decoration: none;
+    border: 1px solid darkgray;
+    padding: 10px 20px;
+    background-color: lightseagreen;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px 1px gray;
+}
